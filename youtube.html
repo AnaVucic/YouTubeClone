@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Youtube Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <button class="burger-menu">
+        <img class="burger-menu-photo" src="icons/burger-menu.svg">
+      </button>
+      <button class="youtube-home-button">
+        <img class="youtube-logo-photo" src="icons/youtube_logo.png" title="YouTube Home">
+      </button>
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.png">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="mic-button">
+        <img class="mic-icon" src="icons/mic.png">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <button class="options-button">
+        <img class="options-icon" src="icons/more-options.svg">
+        <div class="tooltip">Settings</div>
+      </button>
+      <img class="user-picture" src="pfp/profile.png">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="home">
+      <img src="icons/home.png">
+      Home
+    </div>
+    <div class="shorts">
+      <img src="icons/shorts.png">
+      Shorts
+    </div>
+    <div class="subscriptions">
+      <img src="icons/subscriptions.jpg">
+      Subscriptions
+    </div>
+    <div class="you">
+      <img src="icons/you.png">
+      You
+    </div>
+    <div class="history">
+      <img src="icons/history.png">
+      History
+    </div>
+  </nav>
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=LBDCQfju1cY">
+            <img class="thumbnail" src="thumbnails/cats.jpg">
+          </a>
+          <div class="video-time">3:48:47</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@jij-bgm">
+              <img class="pfp" src="pfp/jij.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <div class="video-info-header">
+              <a href="https://www.youtube.com/watch?v=LBDCQfju1cY">
+                <p class="video-title">
+                  Stray Cats' Jazz Night
+                </p>
+              </a>
+              <img class="more-video-options" src="icons/more-options.svg">
+            </div>
+            <p class="video-author">
+              <a href="https://www.youtube.com/@jij-bgm">
+                jij ~ Cat Jazz ~
+              </a>
+            </p>
+            <p class="video-stats">
+              745K views &#x2022; 4 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=6Kjz89xYmS4">
+            <img class="thumbnail" src="thumbnails/wetleg.jpg">
+          </a>
+          <div class="video-time">3:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@wetlegvevo4012">
+              <img class="pfp" src="pfp/wl.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <div class="video-info-header">
+              <a href="https://www.youtube.com/watch?v=6Kjz89xYmS4">
+                <p class="video-title">
+                  Wet Leg - catch these fists (Official Video)
+                </p>
+              </a>
+              <img class="more-video-options" src="icons/more-options.svg">
+            </div>
+            <p class="video-author">
+              <a href="https://www.youtube.com/@wetlegvevo4012">
+                Wet Leg
+              </a>
+            </p>
+            <p class="video-stats">
+              745K views &#x2022; 4 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=97Mj6pXYMd8">
+            <img class="thumbnail" src="thumbnails/linkinpark.jpg">
+          </a>
+          <div class="video-time">3:05</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@LinkinPark">
+              <img class="pfp" src="pfp/lp.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <div class="video-info-header">
+              <a href="https://www.youtube.com/watch?v=97Mj6pXYMd8">
+                <p class="video-title">
+                  Up From The Bottom (Official Music Video) - Linkin Park
+                </p>
+              </a>
+              <img class="more-video-options" src="icons/more-options.svg">
+            </div>
+            <p class="video-author">
+              <a href="https://www.youtube.com/@LinkinPark">
+                Linkin Park
+              </a>
+            </p>
+            <p class="video-stats">
+              11M views &#x2022; 11 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=MjI1L0dBAVI">
+            <img class="thumbnail" src="thumbnails/fontainesDC.jpg">
+          </a>
+          <div class="video-time">7:29</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@fontainesdc">
+              <img class="pfp" src="pfp/fDC">
+            </a>
+          </div>
+          <div class="video-info">
+            <div class="video-info-header">
+              <a href="https://www.youtube.com/watch?v=MjI1L0dBAVI">
+                <p class="video-title">
+                  Fontaines DC - It's Amaying To Be Young (Official Video)
+                </p>
+              </a>
+              <img class="more-video-options" src="icons/more-options.svg">
+            </div>
+            <p class="video-author">
+              <a href="https://www.youtube.com/@fontainesdc">
+                Fontaines DC
+              </a>
+            </p>
+            <p class="video-stats">
+              519K views &#x2022; 1 month ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=qayP_YUrf9I">
+            <img class="thumbnail" src="thumbnails/babymetal.jpg">
+          </a>
+          <div class="video-time">3:29</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@BABYMETALVEVO">
+              <img class="pfp" src="pfp/baby">
+            </a>
+          </div>
+          <div class="video-info">
+            <div class="video-info-header">
+              <a href="https://www.youtube.com/watch?v=qayP_YUrf9I">
+                <p class="video-title">
+                  BABYMETAL - from me to u feat. Poppy (OFFICIAL MUSIC VIDEO)
+                </p>
+              </a>
+              <img class="more-video-options" src="icons/more-options.svg">
+            </div>
+            <p class="video-author">
+              <a href="https://www.youtube.com/@BABYMETALVEVO">
+                BABYMETAL
+              </a>
+            </p>
+            <p class="video-stats">
+              1.6M views &#x2022; 4 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=iLHC2_gByQ8">
+            <img class="thumbnail" src="thumbnails/linus.jpg">
+          </a>
+          <div class="video-time">19:58</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/@LinusTechTips">
+              <img class="pfp" src="pfp/ltt">
+            </a>
+          </div>
+          <div class="video-info">
+            <div class="video-info-header">
+              <a href="https://www.youtube.com/watch?v=iLHC2_gByQ8">
+                <p class="video-title">
+                  I bought this scam PC case... And it actually arrived
+                </p>
+              </a>
+              <img class="more-video-options" src="icons/more-options.svg">
+            </div>
+            <p class="video-author">
+              <a href="https://www.youtube.com/@LinusTechTips">
+                Linus Tech Tips
+              </a>
+            </p>
+            <p class="video-stats">
+              1.2M views &#x2022; 15 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
